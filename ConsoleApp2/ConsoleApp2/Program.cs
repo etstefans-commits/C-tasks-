@@ -10,13 +10,18 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            string day4Input = Console.ReadLine();
-            double num = double.Parse(day4Input);
-            Console.WriteLine(num);
+            string data = Console.ReadLine();
+            double num = double.Parse(data);
 
-            day4Input = Console.ReadLine();
-            num = double.Parse(day4Input);
-            Console.WriteLine(num);
+            data = Console.ReadLine();
+            double num2 = double.Parse(data);
+
+            Console.WriteLine("Sum: " + (num + num2));
+            Console.WriteLine("Difference: " + (num - num2));
+            Console.WriteLine("Product: " + (num * num2));
+            Console.WriteLine("Quotient: " + (num / num2));
+
+            Console.ReadLine();
         }
     }
 }
